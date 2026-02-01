@@ -99,7 +99,19 @@ python test.py
 Citation
 If you find the code useful, please consider citing our paper using the following BibTeX entry.
 ```
-
+@article{QI2026106406,
+title = {Hierarchical low-rank tensor learning with frequency-domain refinement for infrared small-target detection},
+journal = {Infrared Physics & Technology},
+volume = {154},
+pages = {106406},
+year = {2026},
+issn = {1350-4495},
+doi = {https://doi.org/10.1016/j.infrared.2026.106406},
+url = {https://www.sciencedirect.com/science/article/pii/S1350449526000411},
+author = {Meibin Qi and Zijian Zhu and Shuo Zhuang and Liangliang Zhu and Xiaohong Li and Kunyuan Li},
+keywords = {Infrared small target detection, Low-rank sparse decomposition, Frequency-domain feature enhancement, Feature fusion},
+abstract = {Infrared small-target detection (IRSTD) faces fundamental challenges due to low signal-to-clutter ratios and the difficulty of distinguishing faint targets from complex backgrounds and sensor noise. Existing deep learning methods often tackle this as a single problem, lacking a structured approach to disentangle these intertwined components, which limits their performance and interpretability. To address these limitations, we propose HLTL-Net, a novel Hierarchical Low-Rank Tensor Learning Network that enhances target separability through structured decomposition and frequency-domain refinement. Specifically, we introduce a supervised low-rank tensor decomposition (LTD) module that explicitly disentangles an input infrared image into three interpretable subspaces: background, target, and noise. To further enhance the discriminability of the extracted target component, we incorporate a frequency-domain feature refinement (FFR) module that amplifies key frequency signatures while suppressing residual noise. In addition, a multi-stage feature fusion (MFF) module integrates multi-level information from the refined representation to ensure robust localization. Extensive experiments on three public IRSTD benchmarks demonstrate that HLTL-Net achieves state-of-the-art performance, delivering both superior accuracy and improved interpretability for small-target detection. The code is accessible at: https://github.com/master12454/HLTLNet.}
+}
 ```
 
 
